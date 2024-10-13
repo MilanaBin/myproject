@@ -16,3 +16,8 @@ license = {text = "MIT"}
 
 [tool.pdm]
 distribution = false
+
+
+[tool.ruff]
+show-fixes = true
+line-lenght = 120
