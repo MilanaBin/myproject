@@ -20,4 +20,4 @@ distribution = false
 
 [tool.ruff]
 show-fixes = true
-line-lenght = 120
+line-length = 120
