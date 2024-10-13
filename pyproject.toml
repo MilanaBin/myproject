@@ -1,0 +1,18 @@
+[project]
+name = "myproject"
+version = "0.0.1"
+description = "Default template for PDM package"
+authors = [
+    {name = "Milana V", email = "vgpv.milana@gmail.com"},
+]
+dependencies = [
+    "pip>=24.2",
+    "ruff>=0.6.9",
+]
+requires-python = "==3.10.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
